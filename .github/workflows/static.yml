@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'   # Upload entire repository (static files must be in root)
+          path: './Calculater'
 
       - name: Deploy to GitHub Pages
         id: deployment
